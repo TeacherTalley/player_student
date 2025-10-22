@@ -1,0 +1,26 @@
+
+"player1": 
+    "name": "Mario"
+    "strategies":
+        "aggressiveness": 0.5
+        "restraint": 1.5
+        "bid_strength_file": "bidders.xlsx"
+        "bid_strength_sheet": "Mario"
+"player2": 
+    "name": "Bowser"
+    "strategies":
+        "aggressiveness": 0.8
+        "bid_strength_file": "bidders.xlsx"
+        "bid_strength_sheet": "Bowser"
+"player3": 
+    "name": "Luigi"
+    "strategies":
+        "aggressiveness": 0.5
+        "bid_strength_file": "bidders.xlsx"
+        "bid_strength_sheet": "Luigi"
+"player4": 
+    "name": "Wario"
+    "strategies":
+        "aggressiveness": 1.0
+        "bid_strength_file": "bidders.xlsx"
+        "bid_strength_sheet": "Wario"
