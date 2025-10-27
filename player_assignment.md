@@ -70,6 +70,12 @@ You can have the program pause after each hand by adding the `-i` option to the 
 
 You can capture all the output from the program by redirecting the output of the program using `>`.  When doing this, leave the `-i` option off because you won't be able to see the prompts for pressing enter when the output is redirected.  In the example below, the output is redirected into a file called `test.out`.
 
+First, set your shell to use utf-8 encoding:
+```shell
+> chcp 65001
+```
+Then, execute the command to redirect standard output.
+
 ```shell
 > python player.py -d --hands 2 > test.out
 ```
